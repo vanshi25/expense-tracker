@@ -1,3 +1,6 @@
+
+import { useContext } from "react";
+
 import Sidebar from "../Components/Sidebar";
 import SummaryCard from "../Components/SummaryCard";
 import AddTransaction from "../Components/AddTransaction";
