@@ -1,6 +1,6 @@
 import Goals from "./Pages/Goals";
 import Accounts from "./Pages/Accounts";
-
+import { Routes, Route } from "react-router-dom";
 import Dashboard from "./Pages/Dashboard";
 import Transactions from "./Pages/Transactions";
 import Budgets from "./Pages/Budgets";
