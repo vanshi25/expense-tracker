@@ -3,7 +3,8 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
-import { ExpenseProvider } from "./context/ExpenseContext";
+
+import { ExpenseProvider } from "./Context/ExpenseContext";
 import { Toaster } from "react-hot-toast";
 
 ReactDOM.createRoot(
