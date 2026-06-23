@@ -1,5 +1,5 @@
 import Sidebar from "../Components/Sidebar";
- import TransactionList from "../components/TransactionList";
+ import TransactionList from "../Components/TransactionList";
 function Transactions() {
   return (
     <div className="flex min-h-screen bg-slate-100 dark:bg-slate-900">
