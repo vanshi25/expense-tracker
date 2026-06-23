@@ -1,12 +1,11 @@
-import { Routes, Route } from "react-router-dom";
-import Goals from "./pages/Goals";
-import Accounts from "./pages/Accounts";
+import Goals from "./Pages/Goals";
+import Accounts from "./Pages/Accounts";
 
-import Dashboard from "./pages/Dashboard";
-import Transactions from "./pages/Transactions";
-import Budgets from "./pages/Budgets";
-import CreditCards from "./pages/CreditCards";
-import Analytics from "./pages/Analytics";
+import Dashboard from "./Pages/Dashboard";
+import Transactions from "./Pages/Transactions";
+import Budgets from "./Pages/Budgets";
+import CreditCards from "./Pages/CreditCards";
+import Analytics from "./Pages/Analytics";
 function App() {
   return (
     <Routes>
