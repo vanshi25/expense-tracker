@@ -1,12 +1,10 @@
-import { useContext } from "react";
-import Sidebar from "../components/Sidebar";
-import SummaryCard from "../components/SummaryCard";
-import AddTransaction from "../components/AddTransaction";
-import TransactionList from "../components/TransactionList";
-import ExpensePieChart from "../components/ExpensePieChart";
-import ExpenseBarChart from "../components/ExpenseBarChart";
-import { ExpenseContext } from "../context/ExpenseContext";
-
+import Sidebar from "../Components/Sidebar";
+import SummaryCard from "../Components/SummaryCard";
+import AddTransaction from "../Components/AddTransaction";
+import TransactionList from "../Components/TransactionList";
+import ExpensePieChart from "../Components/ExpensePieChart";
+import ExpenseBarChart from "../Components/ExpenseBarChart";
+import { ExpenseContext } from "../Context/ExpenseContext";
 function Dashboard() {
   const { transactions } =
     useContext(ExpenseContext);
