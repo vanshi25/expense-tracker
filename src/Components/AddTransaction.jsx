@@ -3,7 +3,8 @@ import {
   useContext,
   useEffect,
 } from "react";
-import { ExpenseContext } from "../context/ExpenseContext";
+
+import { ExpenseContext } from "../Context/ExpenseContext";
 import toast from "react-hot-toast";
 function AddTransaction() {
   const { addTransaction } =

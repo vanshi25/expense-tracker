@@ -1,4 +1,4 @@
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../Components/Sidebar";
  import TransactionList from "../components/TransactionList";
 function Transactions() {
   return (

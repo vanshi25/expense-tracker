@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaTrash } from "react-icons/fa";
-import Sidebar from "../components/Sidebar";
-
+import Sidebar from "../Components/Sidebar";
 function Goals() {
   const [goals, setGoals] = useState(() => {
     const saved = localStorage.getItem("goals");

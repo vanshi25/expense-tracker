@@ -1,6 +1,7 @@
 import toast from "react-hot-toast";
 import { useContext, useState } from "react";
-import { ExpenseContext } from "../context/ExpenseContext";
+
+import { ExpenseContext } from "../Context/ExpenseContext";
 
 function TransactionList() {
   const {

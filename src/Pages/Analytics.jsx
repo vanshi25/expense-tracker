@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import Sidebar from "../components/Sidebar";
-import { ExpenseContext } from "../context/ExpenseContext";
+import Sidebar from "../Components/Sidebar";
+import { ExpenseContext } from "../Context/ExpenseContext";
 import {
   ResponsiveContainer,
   PieChart,

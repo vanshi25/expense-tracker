@@ -1,7 +1,8 @@
 import { useContext, useEffect, useState } from "react";
-import { ExpenseContext } from "../context/ExpenseContext";
+
 import { FaTrash } from "react-icons/fa";
-import Sidebar from "../components/Sidebar";
+import { ExpenseContext } from "../Context/ExpenseContext";
+import Sidebar from "../Components/Sidebar";
 
 function Budgets() {
   const { transactions } =

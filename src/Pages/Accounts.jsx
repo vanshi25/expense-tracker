@@ -6,7 +6,7 @@ import {
   FaCreditCard,
   FaMoneyBillWave,
 } from "react-icons/fa";
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../Components/Sidebar";
 
 function Accounts() {
   const [accounts, setAccounts] = useState(() => {
